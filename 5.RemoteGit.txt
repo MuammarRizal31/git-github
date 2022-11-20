@@ -1,0 +1,11 @@
+perintah untuk mengkloning git
+    ^git clone <namaFile>                           {untuk menghubungkan git hub dengan git}
+    ^git remote                                     {untuk mengetahui nama remote nya}
+    ^git remote -v                                  {untuk mengetahui siapa remote nya}
+    ^git push                                       {untuk memasukan git kedalam git hub nya}
+    ^git pull                                       {untuk mengambil yang ada di remote kita}
+    ^git config --list                              {untuk mengetahui nama user git nya}
+    ^git config --global user.name "<namaNya>"      {untuk mengganti user nya}
+    -git config --global user.email "<namaEmail>"   {} 
+    -git fetch                                      {untuk mengecek dia sudah sampai mana repo yang ada di remote sudah sampai mana commit nya beda ga sama yang kita punya}
+                                                    -mengambil commit yang terbaru dari remote repository

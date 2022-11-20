@@ -1,0 +1,42 @@
+		<!--Apa itu git dan apa itu github-->
+	
+	
+		<!--GIT-->
+-GIT Adalah Version Control System {VCS}
+	-version control system disebut juga revision control system atau source code management adalah sistem yang mengelola perubahan dari sebuah dokumen,program komputer
+	website dan kumpulan informasi lain.
+
+-definisi version control system {git}
+	-sebuah sistem yang menyimpan rekaman/snapshot perubahan pada source code
+	-memungkinkan bekerja berkolaburasi dengan lebih baik
+	-mengetahui siapa saja yang melakukan dan kapan sebuah perubahan terjadi
+	-memungkinka kita untuk kembali keadaan sebelum adanya perubahan {checkout}
+	
+	GIT
+	-SEBUAH SOFTWARE UNTUK MENGELOLA PERUBAHAN FILE DIDALAM FOLDER{REPOSITORY/REPO}
+	-RIWAYAT PERUBAHAN FILE YANG DISIMPAN MENGGUNAKAN SERANGKAIAN COMMIT
+
+
+		<!-- GITHUB-->
+-Layanan cloud untuk menyimpan dan mengelola project /repo git
+	-istilah dasar nya ini adalah instagram nya para programmer
+
+kesimpulan
+-Version control system
+	-sistem yang menyimpan dan mengelola rekaman perubahan dari source code
+-GIT
+	-salah satu software yang bisa melakukan Version control system{VCS}
+-GITHUB
+	-Website/layanan untuk mengelola project GIT
+
+ISTILAH GIT
+-REPO 		{FOLDER PROJECT GITA
+-COMMIT		{REKAMAN/SNAPSHOT DARI REPO KITA}
+-HASH 		{PENANDA UNIK PADA SEBUAH COMMIT}
+-CHECKOUT	{BERPINDAH KE SEBUAH COMMIT}
+-BRANCH		{CABANG BEBAS DARI SEBUAH COMMIT}
+-MERGE		{MENGGABUNGKAN BRANCH}
+-REMOTE		{SUMBER YANG MEMILIKI REPO}
+-CLONE		{MENGAMBIL REPO DARI REMOTE}
+-PUSH		{MENGIRIMKAN COMMIT KE REPO}
+-PULL		{MENGAMBIL COMMIT DARI REPO}

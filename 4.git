@@ -1,0 +1,47 @@
+git command
+                        <!--GIT BRANCH-->
+-perintah git
+    ^git init                                                      <--{untuk menginisiliasi repo}
+    ^git add <file(s)>                                             <--{untuk membuat file}
+        -git add .                                                 <--{semua yang berubah akan pindah ke staging area}
+    ^git status                                                    <--{untuk mengetahui file kita ada yang nambah atau tidak ada yang hilang atau tidak ada yang berbeda atau tidak..dll}
+    ^git commit                                                    <--{untuk melakukan commit}
+        -git commit -m <pesan>                                     <--{untuk menambahkan pesan}
+    ^git config                                                    <--{untuk memasukan konfigurasi kedalam git nya}
+    ^git branch                                                    <--{untuk bikin branch}
+    ^ls                                                            <--{untuk mengetahui folder apasaja yang ada di komputer}
+    ^pwd                                                           <--{untuk mengetahui kita ada di folder mana}
+    ^git log                                                       <--{untuk mengetahui kita melakukan commit apa saja yang sudah kita lakukan}
+        -git log -2                                                <--{untuk mengetahui 2 commit yang terakhir kita ubah}
+        -git log -- index.html                                     <--{supaya spesifik untuk mencari sebuah file}
+        -git log --all --decorate --oneline --graph                <--{untuk melihat sebuah branch}
+    ^git checkout (5DigitPertamaCommit)                            <--{untuk mengembalikan file yang telah hilang/dihapus}
+        -git checkout (5DigitPertamaCommit) -- <namaFile>          <--{untuk mengembalikan file yang telah dihapus}
+        -git checkout <namaBranch>                                 <--{bisa juga untuk berpindah branch}
+    ^git help
+    ^git commit -am "pesan nya"                                    <--{ketika ingin di commit pakai ini biar cepat,tapi harus dalam keaadaan modify}
+    ^alias namaNya ="git log --all --decorate -- oneline -- graph" <--{untuk mengganti sebuah perintah dengan yang kita inginkan}
+    ^git branch -d <namaBranch>                                    <--{untuk menghapus sebuah branch}
+        git branch -D <namaBranch>                                      {tidak peduli walau branch nya belum di merged}
+    ^git branch --merged                                           <--{Untuk mengetahui sebuah branch sudah di merge}
+
+            #JIKA KALIAN PUNYA FILE BARU/BERUBAH HARUS DI ADD SEMUA
+struktur nya
+-git init
+-git status
+-git add
+-git commit
+
+
+
+-3 area pada repo git
+    ^working tree               {folder tempat kalian bekerja}
+    ^staging area               {ngasih tau git ada perubahan atau tidak}
+    ^history
+
+
+                        <!--GIT MERGE-->
+Jenis MERGE
+    ^fast forward       {berada dijalur langsung}
+        -git merge <namaBranch>
+    ^three-way merge    
