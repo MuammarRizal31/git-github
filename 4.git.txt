@@ -1,5 +1,23 @@
-git command
+			-GIT COMMAND-
+
+mkdir <nama folder> #untuk membuat folder
+cd <nama folder>    #Untuk masuk masuk kedalam folder
+cd ..               #Untuk mundur ke folder sebelumnya
+ls                  #Untuk melihat file yang ada di dalam folder
+ls-al               #Untuk melihat folder yang ada dan di hidden
+touch               #Untuk menambah folder baru
+Vim                 #Untuk nulis ke file
+Esc lalu shift+w    #Untuk save hasil yang telah ditulis
+Esc lalu shift+x    #Untuk save dan keluar folder
+Cat                 #Untuk print di git bash nya
+Rm                  #Untuk utk hapus file
+Mv                  #Untuk mindahin isi dan ganti file
+code/code .         #Untuk membuka file .py atau coding yang dibuat
+Rm - r              #Untuk hapus directory
+Rm -f               #Untuk hapus paksa
+
                         <!--GIT BRANCH-->
+
 -perintah git
     ^git init                                                      <--{untuk menginisiliasi repo}
     ^git add <file(s)>                                             <--{untuk membuat file}
