@@ -8,9 +8,13 @@ git command
     ^git commit                                                    <--{untuk melakukan commit}
         -git commit -m <pesan>                                     <--{untuk menambahkan pesan}
     ^git config                                                    <--{untuk memasukan konfigurasi kedalam git nya}
+	-git config --global user.name "Muammar Rizal"'
+	-git config --global user.email "Muammar Rizal@gmail.com"
     ^git branch                                                    <--{untuk bikin branch}
+	-git branch <Nama branch nya>
     ^ls                                                            <--{untuk mengetahui folder apasaja yang ada di komputer}
     ^pwd                                                           <--{untuk mengetahui kita ada di folder mana}
+	-pwd
     ^git log                                                       <--{untuk mengetahui kita melakukan commit apa saja yang sudah kita lakukan}
         -git log -2                                                <--{untuk mengetahui 2 commit yang terakhir kita ubah}
         -git log -- index.html                                     <--{supaya spesifik untuk mencari sebuah file}
