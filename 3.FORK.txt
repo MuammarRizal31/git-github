@@ -6,7 +6,7 @@ fork atau forking adalah untuk membuat copy repo nya dari orang lain beserta his
 
 yang membedakan fork dengan clone adalah    
     -jika clone untuk menduplikat langsung ke komputer nya
-    -fork hanya menduplikat langsung ke githubnya saja
+    -fork hanya menduplikat langsung ke githubnya saja/repository
     -fork dan clone tidak sama
     
 dan yang membedakan download zip dengan fork adalah
