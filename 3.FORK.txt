@@ -1,7 +1,7 @@
 fork atau forking adalah untuk membuat copy repo nya dari orang lain beserta historynya
     -jembatan antara repo original dan duplikatnya
     -memodifikasi terhadap repo original nya
-    -berkontribusi terhadap repo orang lain 
+    -bisa berkontribusi terhadap repo orang lain/memodifikasi codingan oranglain/membantu menyelesaikan masalah orang lain
 
 
 yang membedakan fork dengan clone adalah    
