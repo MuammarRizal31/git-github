@@ -1,3 +1,3 @@
 Jenis-jenis Merge
   1.FAST FORWARD      <--Fast forward merge terjadi ketika branch yang kita ingin gabungkan itu berada dalam jalur langsung(Direct path)
-  2.Three-way merge   <--Three-way merge terjadi ketika branch yang kita ingin gabungkan itu berada di jalur yang berbeda (Tidak ada direct path)
+  2.Three-way merge   <--Three-way merge terjadi ketika branch yang kita ingin gabungkan itu berada di jalur yang berbeda (Tidak ada direct path) dan yang dibelakang layar ia membuat commit baru
