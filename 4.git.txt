@@ -42,10 +42,11 @@ Rm -f               #Untuk hapus paksa
         -git checkout <namaBranch>                                 <--{bisa juga untuk berpindah branch}
     ^git help
     ^git commit -am "pesan nya"                                    <--{ketika ingin di commit pakai ini biar cepat,tapi harus dalam keaadaan modify}
-    ^alias namaNya ="git log --all --decorate -- oneline -- graph" <--{untuk mengganti sebuah perintah dengan yang kita inginkan}
+    ^alias <Nama file> ="git log --all --decorate -- oneline -- graph" <--{untuk mengganti sebuah perintah dengan yang kita inginkan}
     ^git branch -d <namaBranch>                                    <--{untuk menghapus sebuah branch}
         git branch -D <namaBranch>                                      {tidak peduli walau branch nya belum di merged}
     ^git branch --merged                                           <--{Untuk mengetahui sebuah branch sudah di merge}
+    ^git rm --cached <nama filenya>				   <--{Untuk mengeluarkan file dari staging area}
 
             #JIKA KALIAN PUNYA FILE BARU/BERUBAH HARUS DI ADD SEMUA
 struktur nya
