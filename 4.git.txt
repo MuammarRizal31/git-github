@@ -26,8 +26,11 @@ Rm -f               #Untuk hapus paksa
     ^git commit                                                    <--{untuk melakukan commit}
         -git commit -m <pesan>                                     <--{untuk menambahkan pesan}
     ^git config                                                    <--{untuk memasukan konfigurasi kedalam git nya}
-	-git config --global user.name "Muammar Rizal"'
+	-git config --global user.name "Muammar Rizal"'		   <--{Untuk konfigurasi git secara global/semua file nya memakai username/email tersebut}
 	-git config --global user.email "Muammar Rizal@gmail.com"
+	
+	-git config --local user.name "Muammar Rizal"	    	   <--{Untuk konfigurasi git secara Local/hanya file tertentu yang memakai username/email tersebut}
+	-git config --local user.email "Mamdawbn@gmail.com"	
     ^git branch                                                    <--{untuk bikin branch}
 	-git branch <Nama branch nya>
     ^ls                                                            <--{untuk mengetahui folder apasaja yang ada di komputer}
