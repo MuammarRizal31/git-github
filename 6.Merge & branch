@@ -1,3 +1,6 @@
+Merge adalah suatu command dalam git untuk membuat branch yang bercabang menjadi satu kembali atau dengan kata lain mengintegrasikan kembali branch tersebut menjadi satu
+Merge akan mengombinasikan beberapa tahapan commits menjadi satu branch yang terunifikasi
+
 Jenis-jenis Merge
   1.FAST FORWARD      <--Fast forward merge terjadi ketika branch yang kita ingin gabungkan itu berada dalam jalur langsung(Direct path)
   2.Three-way merge   <--Three-way merge terjadi ketika branch yang kita ingin gabungkan itu berada di jalur yang berbeda (Tidak ada direct path) dan yang dibelakang layar ia membuat commit baru
