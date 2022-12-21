@@ -40,7 +40,7 @@ Rm -f               #Untuk hapus paksa
         -git log -2                                                <--{untuk mengetahui 2 commit yang terakhir kita ubah}
         -git log -- index.html                                     <--{supaya spesifik untuk mencari sebuah file}
         -git log --all --decorate --oneline --graph                <--{untuk melihat sebuah branch}
-    ^git checkout (5DigitPertamaCommit)                            <--{untuk mengembalikan file yang telah hilang/dihapus}
+    ^git checkout (5DigitPertamaCommit)                            <--{untuk berpindah ke branch yang sudah dihapus/belum}
         -git checkout (5DigitPertamaCommit) -- <namaFile>          <--{untuk mengembalikan file yang telah dihapus}
         -git checkout <namaBranch>                                 <--{bisa juga untuk berpindah branch}
     ^git help
@@ -58,17 +58,3 @@ struktur nya
 -git status
 -git add
 -git commit
-
-
-
--3 area pada repo git
-    ^working tree               {folder tempat kalian bekerja}
-    ^staging area               {ngasih tau git ada perubahan atau tidak}
-    ^history
-
-
-                        <!--GIT MERGE-->
-Jenis MERGE
-    ^fast forward       {berada dijalur langsung}
-        -git merge <namaBranch>
-    ^three-way merge    
