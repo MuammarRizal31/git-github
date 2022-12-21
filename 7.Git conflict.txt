@@ -1,2 +1,4 @@
 Merge-conflict merupakan sebuah kasus di mana terdapat pertentangan (conflict) ketika proses integrasi (merge) antara dua source berbeda.
 simpel nya git conflict itu adalah ada 2 orang mengerjakan repo yang sama dengan isi yang berbeda...gitu lah kirakira simplenya
+
+dan untuk penyelesaianya
