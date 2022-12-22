@@ -51,6 +51,9 @@ Rm -f               #Untuk hapus paksa
     ^git branch --merged                                           <--{Untuk mengetahui sebuah branch sudah di merge}
     ^git rm --cached <nama filenya>				   <--{Untuk mengeluarkan file dari staging area}
     ^git branch --merged					   <!--{Untuk mengetahui branch mana yang sudah di merge}
+    ^git remote							   <!--{Untuk mengetahui ada nama remote apa saja didalam repo}
+    ^git remote -v						   <!--{untuk melihat datanya lebih detail lagi}
+    
 
             #JIKA KALIAN PUNYA FILE BARU/BERUBAH HARUS DI ADD SEMUA
 struktur nya
