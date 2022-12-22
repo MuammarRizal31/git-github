@@ -1,0 +1,4 @@
+Dengan menggunakan git remote ini kita akan membuat duplikat dari repo kita ketempat lain...jadi github nya bisa kita anggap sebagai remote
+
+satu repo lokal bisa terhubung ke beberapa remote sekali gus...seperti github,gitlab,gitbucket dll
+pada intinya remote itu duplikat dari repo yang kita punya
