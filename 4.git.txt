@@ -53,7 +53,8 @@ Rm -f               #Untuk hapus paksa
     ^git branch --merged					   <!--{Untuk mengetahui branch mana yang sudah di merge}
     ^git remote							   <!--{Untuk mengetahui ada nama remote apa saja didalam repo}
     ^git remote -v						   <!--{untuk melihat datanya lebih detail lagi}
-    
+    ^git fetch							   <!--{Dia akan mengecek repo yang ada di remote sudah sampai mana commit nya...beda ga sama yang kita punya di local}
+    ^git pull							   <!--{untuk mengambil semua perubahan yang ada di remotenya/githubnya}
 
             #JIKA KALIAN PUNYA FILE BARU/BERUBAH HARUS DI ADD SEMUA
 struktur nya
