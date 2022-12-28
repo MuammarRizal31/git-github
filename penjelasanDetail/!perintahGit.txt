@@ -18,16 +18,19 @@ ngecek versi git        : git --version
     -git init
 
     MEMBUAT FOLDER
-    -mkdir <nama folder>
+        -mkdir <nama folder>
 
     melihat list folder
-    -ls
+        -ls
 
     untuk mengecek ada perubahan atau tidak didalam reponya
-    -git status
+        -git status
 
     untuk menambahkan perubahan dari working area ke staging area
-    -git add .
+        -git add .
 
     untuk menambahkan dari staging area ke repo
-    -git commit -m "<pesan>"
+        -git commit -m "<pesan>"
+
+    untuk memindahkan file yang ada di staging area ke working area
+        -git rm --cached <file>
