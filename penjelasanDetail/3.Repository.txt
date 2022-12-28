@@ -1,0 +1,11 @@
+REPOSITORY
+    -repository merupakan sebutan sebuah project di git
+    -kita bisa membuat folder kosong atau folder yang sudah berisi file,lalu membuatnya sebagai git repository
+    -atau kita bisa melakukan clone git repository yang sudah ada dari server git
+
+MEMBUAT REPOSITORY
+    -untuk membuat repository,kita hanya perlu menggunakan perintah "git init"
+    -dan dilakukan dari dalam folder yang akan kita jadikan sebagai git repository
+    -setelah membuat git repository,kita bisa lihat ada folder baru dengan nama .git
+    - .git merupakan folder yang berisikan database git,jangan sampai kita mengubah data yang terdapat pada folder .git
+    

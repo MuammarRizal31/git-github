@@ -1,43 +1,75 @@
+Susunan
+1.Pengenalan version control 
+    -Version control system         : 14
+    -sebelum adanya VCS             : 17
+    -tipe version control           : 22
+    -centralized version control    : 42
+    -distributed version control    : 53
 
-Git adalah salah satu sistem pengontrol versi (Version control system) pada proyek perangkat lunak yang diciptakan oleh linus torvalds
+2.Pengenalan git
+    -sejarah git    : 62
+    -pengenalan git : 70
+================================================================================================================================================================
+1).
+    Verion Control system 
+        -Version control adalah sebuah system yang merekam perubahan pada file dari waktu ke waktu,sehingga kita bisa melihat versi sebelumnya jika diinginkan
+        -Version control sangat populer dikalangan programmer,karena programmer selalu membuat kode program dalam bentuk kode tulisan.dengan version control system,programmer bisa merekam semua perubahan yang terjadi,sehingga jika terjadi kesalahan,programmer bisa dengan mudah kembali ke versi sebelumnya
 
-pengontrol versi bertugas mencatat setiap perubahan pada file proyek yang dikerjakan oleh banyak orang maupun sendiri
+    SEBELUM ADA VERSION CONTROL SYSTEM
+        -saat kita mengerjakan pekerjaan,kita sering kali melakukan revisi.Misal saja kita membuat document proposal atau skripsi
+        -biasanya kita akan simpan dokumen pertama dengan nama document_1,setelah mendapatkan revisi,kita akan simpan dengan nama document_2 jika masih ada revisi lagi kita akan simpan dengan nama document_3 dan seterusnya
+        -kenapa kita lakukan hal tersebut ? agar kita bisa mengetahui perubahan yang terjadi antar revisi document,dan jika sewaktu waktu kita perlu menggunakan revisi yang sebelumnya kita bisa menggunakan nya dengan mudah
+        
+    tipe version control
+        -LOCAL VERSION CONTROL
+        -CENTRALIZED VERSION CONTROL
+        -DISTRIBUTED VERSION CONTROL
 
-git dikenal juga dengan distributed revision control (VCS TERDISTRIBUSI) artinya penyimpanan database git tidak hanya berada dalam satu tempat saja
+        1.local version control merupakan version control yang berjalan hanya di local komputer
+        2.Pendekatan ini biasa digunakan karena sederhana dan tidak butuh server,karena semua riwayat pekerjaan disimpan di local konputer
+        3.Setiap perubahan versi yang terjadi pada file hanya disimpan di local komputer 
 
-semua orang yang terlibat dalam pengkodean proyek akan menyimpan database git,sehingga akan memudahkan dalam mengelola proyek baik online maupun offline
-
-dalam git terdapat MERGE untuk menyebut aktifitas penggabungan kode.
-
-sedangkan pada vcs yang terpusat...database disimpan dalam satu tempat dan setiap perubahan disimpan kesana
-
-VCS terpusat memiliki beberapa kekurangan :
-    1.semua tim harus terkoneksi ke jaringan untuk mengakses source;
-    2.Tersimpan disatu tempat,nanti kalau server bermasalah bagaimana ?
-
--GIT
-apa yang dilakukan git ?
-    Git sebenarnya akan memantau semua perubahan yang terjadi pada file proyek.lalu menyimpan nya kedalam database
-
-APA PERBEDAAN NYA?
-    -Saat kita ingin menyimpan semua perubahan pada file,biasanya kita membuat file baru dengan " Save as" lalu file akan menumpuk dalam direktori proyek
-    
-    setelah menggunakan git
-    -Hanya akan ada satu file dalam proyek dan perubahannya disimpan dalam database
-    git hanya akan menyimpan delta perubahannya saja,dia tidak akan menyimpan seluruh isi file yang akan memakan banyak memori
-    git memungkinkan kita kembali ke versi revisi yang kita inginkan
-
-jadi selain untuk mengontrol versi,git juga digunakan untuk kolaborasi
-saat ini git menjadi salah satu tool terpopuler yang digunakan pada pengembangan software open source maupun closed saource
+        KEKURANGAN NYA
+        -ketika komputer nya rusak/hilang maka hilang semua data datanya
 
 
+        DIAGARAM LOCAL VERSION CONTROL
+                
+                DATABASE
+        FILE --> document_1
+                 document_2
+                 document_3
 
-BEBERAPA MANFAAT YANG AKAN DIRASAKAN SETELAH BISA MENGGUNAKAN GIT 
-    1.Bisa menyimpan seluruh versi source code
-    2.bisa paham cara kolaborasi dalam proyek
-    3.bisa ikut berkontribusi ke proyek open-source
-    4.lebih aman digunakan untuk kolaborasi,karena kita bisa tahu apa yang diubah dan siapa yang mengubahnya
-    5.bisa memahami cara deploy aplikasi modern
-    6.Bisa membuat blog dengan SSG
+    CENTRALIZED VERSION CONTROL
+    (Maksud dari centralized adalah sistem kontrol versi yang terpusat(CVCS) hanya mengandung satu repositori dan setiap pengguna mendapatkan copy(salinan) pekerjaan mereka sendiri.anda harus melakukan commit untuk dapat mencerminkan perubahan anda pada repository)
+        -Masalah yang terjadi pada local version control adalah jika komputer rusak maka seluruh data bisa hilang
+        -selain itu agak sulit untuk berkolaborasi dengan pengguna lain jika file hanya ada di satu komputer
+        -untuk menangani masalah ini,kita bisa menggunakan centralized version control
+        -centralized version control menyimpan seluruh data revisi di server
+        -pengguna bisa mengakses data ke server untuk melihat file
+        -kekurangan nya adalah jika pengguna offline mereka tidak bisa melihat riwayat file karena semua riwayat hanya ada di server
+        -jika server down maka seluruh pengguna tidak bisa melakukan perubahan dan melihat revisi file
+        -contoh centralized version control adalah subversion
 
-    
+    DISTRIBUTED VERSION CONTROL
+        -distributed version control adalah alternatif dari centralized version control
+        -dalam distributed version control(DVCs),client tidak hanya mengambil file versi terakhir,namun seluruh riwayat revisi di copy seluruhnya
+        -Hal ini menjadikan jika terjadi masalah dengan server,client masih tetap bekerja,mengedit file sampai melihat riwayat perubahan
+        -bahkan dalam DVCs,server bisa lebih dari satu,karena tiap server isinya sama,full backup data
+        -contoh DVC adalah git,mercurial dan lain lain
+
+
+2).
+    SEJARAH GIT
+        -git muncul dengan latar belakang openSource project linux kernel
+        -tahun 1991-2002 linux kernel di develop hanya dengan memanfaatkan parch dan archived files
+        -ditahun 2005 hubungan antara perusahaan pemiliki bitKeeper dengan komunitas linux kernel kurang baik,sehingga pembuat linux,linus torvalds mulai membuat DVCs sendiri
+        -git pertama kali di kenalkan tahun 2005,semakin kesini git semakin populer dan sekarang menjadi DVCs yang paling populer didunia
+        -git sangat cepat,ringan dan baik dalam mem menege project dengan ukuran besar
+
+    PENGENALAN GIT
+        -jadi,git adalah salah satu DVCs yang ada
+        -git tidak membutuhkan server untuk melakukan perubahan atau melihat riwayat revisi,hal ini dikarenakan dalam git,semua riwayat project akan selalu di duplikasi,baik itu di server ataupun di local computer
+        artinya sebenarnya git juga bisa dibilang sebagai local version control
+        -setiap perubahan yang terjadi di git akan selalu di buat signature(tanda) nya menggunakan algoritma hashing SHA-1.hal ini menjadikan perubahan sekecil apapun pasti bisa di deteksi oleh git
+        -Semua hal yang terjadi di git secara otomatis akan dicatat,hal ini menjadikan perubahan apapun digit pasti selalu bisa dikembalikan ke versi sebelumnya

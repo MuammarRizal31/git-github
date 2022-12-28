@@ -1,0 +1,19 @@
+CONFIGURATION
+    -Setelah selesai menginstall git,hal pertama kali kita lakukan adalah melakukan CONFIGURASI
+    -Yang paling utama yang perlu kita konfigurasi diawal adalah user name dan user email
+    -digunakan untuk yang melakukan perubahan itu siapa
+^git config --global user.name "MuammarRizal"
+^git config --global user.email "Muammarrizal2002@gmail.com"
+
+---------
+untuk melakukan setting text editor default
+^git config --global core.editor "code --wait"
+kalau tidak menambahkan wait diakhir nya maka dia akan otomatis ngeclose saat membuka text editor nya
+
+    ^KONFIGURASI UNTUK DEFAULT TEXT EDITOR VISUAL STUDIO CODE
+        -git config --global core.editor "code --wait"
+        -git config --global diff.tool "default-difftool"
+        -git config --global difftool.default-difftool.cmd "code --wait --diff \$LOCAL \$REMOTE"
+
+    ^MELIHAT SELURUH CONFIGURASI
+        -git config --list --show-origin

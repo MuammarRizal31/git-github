@@ -1,0 +1,21 @@
+THE TREE STATES
+    -harap diperhatikan,ini adalah hal utama yang wajib dimengerti di git agar selanjutnya bisa mengerti dengan baik
+    -git memiliki tiga state terhadap file kita: modifed,staged dan commited
+        1.modifed artinya kita mengubah (menambah,mengedit,menghapus)file,namun belum disimpan secara permanen ke repository
+        2.staged artinya kita menandai modifikasi yang kita lakukan terhadap file akan disimpan secara permanen ke REPOSITORY
+        3.committed artinya data sudah aman disimpan di repository
+
+THREE SECTION
+    -tiga state sebelumnya didalam git dilakukan di secttion yang berbeda beda yaitu
+        1.Working directory
+        2.Staging Area
+        3.repository
+    -Saat kita melakukan modifikasi file,itu dilakukan di working directory
+    -Staging area merupakan section dimana file sudah disiapkan untuk disimpan secara permanen
+    -Repository merupakan tempat dimana semua file dan database riwayat versi file disimpan
+
+WORKFLOW / ALUR KERJA
+    -sekarang kita sudah tahu tentang arsitektur three tree,sekarang pertanyaannya,bagaimana alur kerja menggunakan git ?
+    -secara sederhana,setiap perubahan akan kita lakukan di working directory/working area
+    -jika ada yang mau disiapkan untuk disimpan secara permanen,kita akan bawa perubahan tersebut ke staging area/staging index
+    -selanjutnya kita bisa melakuakn penyimpanan versi baru secara permanen ke repository

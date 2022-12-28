@@ -1,0 +1,5 @@
+MENAMBAHKAN FILE 
+    -untuk menambahkan file baru ke repository,kita cukup tambahkan filenya saja
+    -secara otomatis file yang kita tambahkan awalnya akan berada di working directory
+    -secara default saat menambahkan file baru,file tersebut tidak akan di track perubahannya
+    -agar perubahan di track,kita harus pindahkan dari working directory/working area ke staging index/staging area

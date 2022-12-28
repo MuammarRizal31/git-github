@@ -1,0 +1,33 @@
+ngecek versi git        : git --version
+
+1.CONFIGURASI
+    ^KONFIGURASI UNTUK MENGTAHUI SIAPA YANG MENGUBAH/MENGEDIT FILE
+        -git config --global user.name "<nama>"
+        -git config --global user.email "<email>"
+    yang penting hanya dua diatas ini saja
+
+    ^KONFIGURASI UNTUK DEFAULT TEXT EDITOR VISUAL STUDIO CODE
+        -git config --global core.editor "code --wait"
+        -git config --global diff.tool "default-difftool"
+        -git config --global difftool.default-difftool.cmd "code --wait --diff \$LOCAL \$REMOTE"
+
+    ^MELIHAT SELURUH CONFIGURASI
+        -git config --list --show-origin
+
+2.MEMBUAT REPOSITORY
+    -git init
+
+    MEMBUAT FOLDER
+    -mkdir <nama folder>
+
+    melihat list folder
+    -ls
+
+    untuk mengecek ada perubahan atau tidak didalam reponya
+    -git status
+
+    untuk menambahkan perubahan dari working area ke staging area
+    -git add .
+
+    untuk menambahkan dari staging area ke repo
+    -git commit -m "<pesan>"

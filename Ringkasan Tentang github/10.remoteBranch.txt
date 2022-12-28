@@ -1,0 +1,1 @@
+remote branch yaitu bagaimana saat kita membuat branch di repo kita,lalu branch tersebut kita usulkan ke repo aslinya nya
