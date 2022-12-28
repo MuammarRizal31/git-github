@@ -26,4 +26,4 @@ PERHITUNGAN HASH
 
 HEAD
     -head merupaka pointer menuju hash yang paling akhir
-    -kadang kadang sangat menyulitkan jika harus menuliskan hash value,jika kita akan menuju hash paling baru,kita bisa menggunakan kata head
+    -kadang kadang sangat menyulitkan jika harus menuliskan hash value,jika kita akan menuju hash  paling baru,kita bisa menggunakan kata head
