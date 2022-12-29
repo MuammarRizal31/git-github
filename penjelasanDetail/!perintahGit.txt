@@ -32,5 +32,11 @@ ngecek versi git        : git --version
     untuk menambahkan dari staging area ke repo
         -git commit -m "<pesan>"
 
-    untuk memindahkan file yang ada di staging area ke working area
+    untuk menghapus file yang ada di staging area ke working area
         -git rm --cached <file>
+
+    untuk memindahkan file yang ada di staging area ke working Area
+        -git restore --staged <file>
+
+    untuk melihat perubahan yang terjadi
+        -git diff
