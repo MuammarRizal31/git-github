@@ -1,4 +1,0 @@
-MENGHAPUS FILE
-    -Untuk menghapus file di repository,kita cukup lakukan delete file nya di foldernya
-    -secara otomatis git akan mendeteksi file yang hilang
-    -sama seperti menambah dan menghapus,jika ingin disimpan secara permanen di repository,kita harus menambahkan operasi tersebut ke staging index,lalu commit ke repository
