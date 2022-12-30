@@ -1,0 +1,27 @@
+==========> COMMIT <=============
+COMMIT LOG
+    -git adalah distributed version control,artinya walaupun kita repository di local komputer kita,semua riwayat perubahan disimpan di komputer kita
+    -Kekurangannya menjadi makin lama repository akan semakin besar ukuran nya,namun keuntungan nya kita bisa melihat semua riwayat commit atau disebut commit LOG
+    -untuk melihat commit log kita bisa gunakan perintah git log
+
+
+MEMBATALKAN YANG SUDAH DI COMMIT
+    -bagaimana jika perubahan yang kita lakukan terlanjur dicommit
+    -tidak ada cara yang bisa kita lakukan jika perubahan sudah terlanjut di commit
+    -yang bisa kita lakukan adalah dengan dua cara,rollback commit atau revert commit
+    -kedua cara tersebut akan kita bahas di materi sendiri sendiri
+
+
+MELIHAT DETAIL COMMIT
+    -kadang kita ingin melihat detail perubahan yang terjadi pada sebuah commit
+    -untuk melakukan itu kita bisa gunakan perintah
+        ^git show hash
+
+==========> COMPARE COMMIT / MEMBANDINGKAN COMMIT <=============
+COMPARE COMMIT
+    -git memiliki fitur untuk membandingkan antara commit dengan commit lainnya
+    -namun jangan sampai salah pengertian,membandingkan disini adalah membandingkan snapshot hasil commit,bukan perubahan yang terjadi antara commit
+    -misal pada commit sebelumnya kita pernah menambahkan file 3,namun jika kita bandingkan antara commit pertama dan terakhir(head) hasilnya hanyalah perbandingan antara file1 dan file2,tidak ada file3
+    -hal ini dikarenakan membandingkan commit bukanlah membandingkan perubahan yang pernah terjadi,melainkan  membandingkan hasil di commit
+    -untuk membandingkan commit,kita bisa gunakan perintah 
+        ^git diff <hash1> <hash2>

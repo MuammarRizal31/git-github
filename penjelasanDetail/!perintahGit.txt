@@ -14,8 +14,8 @@ ngecek versi git        : git --version
     ^MELIHAT SELURUH CONFIGURASI
         -git config --list --show-origin
 
-2.MEMBUAT REPOSITORY
-    -git init
+    MEMBUAT REPOSITORY
+        -git init
 
     MEMBUAT FOLDER
         -mkdir <nama folder>
@@ -56,3 +56,17 @@ ngecek versi git        : git --version
     membatalkan dari staging area ke working area
         -git restore --staged <file>
          
+    melihat riwayat commit
+        -git log
+    
+    melihat riwayat commit secara sederhana
+        -git log --oneline
+
+    melihat commit dengan graph
+        -git log --oneline --graph
+
+    melihat detail commit
+        -git show <hash>
+
+    melihat detail commit yang terbaru
+        -git show head
