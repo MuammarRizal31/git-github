@@ -35,8 +35,12 @@ UNTUK MEMBATALKAN DARI STAGING AREA
     -artinya jika perubahan terlanjur kita masukan ke staging area,maka untuk membatalkan nya tidak bisa kita lakukan secara langsung dari staging area
     -kita perlu mengembalikan posisi dari staging area ke working area terlebih dahulu,caranya kita bisa gunakan perintah : git restore --staged <nama file>
 
-MEMBATALKAN YANG SUDAH DI COMMIT
-    -bagaimana jika perubahan yang kita lakukan terlanjur dicommit
-    -tidak ada cara yang bisa kita lakukan jika perubahan sudah terlanjut di commit
-    -yang bisa kita lakukan adalah dengan dua cara,rollback commit atau revert commit
-    -kedua cara tersebut akan kita bahas di materi sendiri sendiri
+=====> GRAPH <=================
+GRAPH
+    -saat nanti kita sudah belajar tentang git branching,kadang kita ingin melihat commit log dengan hubungannya dengan commit log sebelumnya
+    -Hal ini bisa kita lakukan menggunakan perintah
+        ^git log --oneline --graph
+
+LOG SEDERHANA
+    -kadang kita hanya ingin melihat dommit log message nya saja atau istilahnya versi sederhana
+    -untuk melakukan itu kita bisa gunakan perintah git log --oneline
