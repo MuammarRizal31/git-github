@@ -1,0 +1,15 @@
+VERSI SEBELUMNYA
+    -kadang kita sering mengalami masalah dengan file yang sudah kita commit ke repository
+    -git memiliki fitur dimana kita bisa melihat versi file pada commit sebelumnya
+    -saat kita ambil versi file sebelumnya,file pada commit tersebut akan berada di staging area
+    -untuk melakukan nya kita bisa menggunakan perintah
+        ^git checkout <hash> --<namafile>
+
+SNAPSHOT SEBELUMNYA
+    -git memiliki fitur seperti mesin waktu,dimana kita bisa kembali pada snapshot SEBELUMNYA
+    -kita bisa tentukan kemana tujuan snapshot kita hanya dengan menggunakan hash commit
+    -cara jika kita ingin menuju ke snapshot tertentu,cukup gunakan perintah 
+        ^git checkout <hash>
+    -jika ingin kembali kepaling awal,kita bisa gunakan perintah 
+        ^git checkout <nama branch>
+        
