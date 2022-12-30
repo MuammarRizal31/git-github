@@ -28,6 +28,11 @@ MEMBATALKAN PERUBAHAN
     -jika kita menambahkan file di working area,lalu misalnya kita ingin membatalkan perubahan nya
     -caranya cukup sederhana,kita hanya perlu menghapus file tersebut,atau bisa menggunakan perintah : git clean -f
 
+RENAME FILE
+    -Hal yang paling menarik di git adalah,git bisa mendeteksi rename file
+    -secara sederhana sebenernya rename file merupakan operasi gabungan antara hapus file,lalu menambah file baru dengan isi yang sama
+    -namun git bisa otomatis mendeteksi jika terjadi perubahan nama file,karena isi file sebagian besar masih sama
+
 
 ======> STAGING AREA <==========
 UNTUK MEMBATALKAN DARI STAGING AREA
