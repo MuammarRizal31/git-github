@@ -40,7 +40,7 @@ Susunan
                  document_2
                  document_3
 
-    CENTRALIZED VERSION CONTROL
+    gitCENTRALIZED VERSION CONTROL
     (Maksud dari centralized adalah sistem kontrol versi yang terpusat(CVCS) hanya mengandung satu repositori dan setiap pengguna mendapatkan copy(salinan) pekerjaan mereka sendiri.anda harus melakukan commit untuk dapat mencerminkan perubahan anda pada repository)
         -Masalah yang terjadi pada local version control adalah jika komputer rusak maka seluruh data bisa hilang
         -selain itu agak sulit untuk berkolaborasi dengan pengguna lain jika file hanya ada di satu komputer
