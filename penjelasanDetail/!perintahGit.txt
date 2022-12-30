@@ -83,3 +83,5 @@ ngecek versi git        : git --version
             ^mode --mixed (default) mengubah staging area menjadi sama seperti repository namun tidak mengubah apapun di working area
             ^mode --hard mereset semua yang ada,repository,staging dan working direset seperti sebelumnya dan perubahan di commit selanjutnya hilang/dihapus
         untuk balik lagi ke commit selanjutnya pakai code yang sama (git reset <mode> <hash>)
+
+        -git show head

@@ -24,6 +24,7 @@ COMPARE COMMIT
     -misal pada commit sebelumnya kita pernah menambahkan file 3,namun jika kita bandingkan antara commit pertama dan terakhir(head) hasilnya hanyalah perbandingan antara file1 dan file2,tidak ada file3
     -hal ini dikarenakan membandingkan commit bukanlah membandingkan perubahan yang pernah terjadi,melainkan  membandingkan hasil di commit
     -untuk membandingkan commit,kita bisa gunakan perintah 
+
         ^git diff <hash1> <hash2>
 
 ============> DIFFTOOL <=======================
@@ -51,3 +52,4 @@ REWRITE RIWAYAT COMMIT
     -jika kita melakukan rest,namun kita belum membuat commit baru
     -kita masih bisa kembali maju lagi ke commit yang paling baru
     -namun jika kita membuat commit baru,secara otomatis commit lama akan ditimpa oleh commit baru
+        ^git diff <hash1> <hash2>
