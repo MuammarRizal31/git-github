@@ -40,3 +40,19 @@ ngecek versi git        : git --version
 
     untuk melihat perubahan yang terjadi
         -git diff
+
+    untuk memindahkan dari staging area ke repository
+        -git commit -m "<pesan>"
+
+    untuk membatalkan penambahan file
+        -git clean -f
+
+    untuk membatalkan perubahan file di working area
+        -git restore <nama file>
+
+    untuk membatalkan penghapusan file di working area
+        -git restore <nama file>
+    
+    membatalkan dari staging area ke working area
+        -git restore --staged <file>
+         

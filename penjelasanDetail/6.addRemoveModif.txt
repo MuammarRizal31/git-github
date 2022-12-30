@@ -23,3 +23,20 @@ MENGUBAH FILE
     -untuk melakukan perubahan file,kita cukup lakukan perubahan file terhadap file yang sudah ada di repository
     -secara otomatis git bisa mendeteksi perubahan
     -sama seperti dengan menambah file,jika ingin kita simpan secara permanen kita bisa pindahkan ke staging area lalu commit ke repository
+
+MEMBATALKAN PERUBAHAN
+    -jika kita menambahkan file di working area,lalu misalnya kita ingin membatalkan perubahan nya
+    -caranya cukup sederhana,kita hanya perlu menghapus file tersebut,atau bisa menggunakan perintah : git clean -f
+
+
+======> STAGING AREA <==========
+UNTUK MEMBATALKAN DARI STAGING AREA
+    -perintah git restore hanya bisa dilakukan untuk membatalkan perubahan yang terjadi di working area
+    -artinya jika perubahan terlanjur kita masukan ke staging area,maka untuk membatalkan nya tidak bisa kita lakukan secara langsung dari staging area
+    -kita perlu mengembalikan posisi dari staging area ke working area terlebih dahulu,caranya kita bisa gunakan perintah : git restore --staged <nama file>
+
+MEMBATALKAN YANG SUDAH DI COMMIT
+    -bagaimana jika perubahan yang kita lakukan terlanjur dicommit
+    -tidak ada cara yang bisa kita lakukan jika perubahan sudah terlanjut di commit
+    -yang bisa kita lakukan adalah dengan dua cara,rollback commit atau revert commit
+    -kedua cara tersebut akan kita bahas di materi sendiri sendiri
