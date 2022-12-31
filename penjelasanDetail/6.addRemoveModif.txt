@@ -49,3 +49,5 @@ GRAPH
 LOG SEDERHANA
     -kadang kita hanya ingin melihat dommit log message nya saja atau istilahnya versi sederhana
     -untuk melakukan itu kita bisa gunakan perintah git log --oneline
+
+====================>
