@@ -90,5 +90,5 @@ ngecek versi git        : git --version
     melihat commit sebelumnya
         -git checkout <hash> --  <namaFile>
 
-    membatalkan commit yang sudah dilakukan dengan cara membuat commit baru
+    membatalkan commit yang sudah dilakukan dengan cara membuat commit baru ini berbeda dengan reset
         -git revert <hash>

@@ -66,6 +66,6 @@ AMEND COMMIT
 ============> REVERT COMMIT <===============
 REVERT COMMIT
     -git memiliki revert commit,yaitu fitur untuk membatalkan commit yang sudah kita lakukan dengan cara membuat commit baru yang membatalkan commit sebelumnya
-    -misal kita sudah melakukan commit data perubahan dari text Eko menjadi Eka,jika kita revert,secara otomatis akan membuat commit baru dengan melakukan perubahan dari eka menjadi Eko
+    -misal kita sudah melakukan commit data perubahan dari text Eko menjadi Eka,jika kita revert,secara otomatis akan membuat commit baru dengan melakukan perubahan dari eka menjadi Eko jadi kebalikan nya
     -untuk melakukan revert commit kita bisa gunakan perintah 
         ^git revert <hash>

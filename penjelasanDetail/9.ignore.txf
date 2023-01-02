@@ -1,0 +1,18 @@
+===========> GIT IGNORE <==============
+IGNORE
+    -kadang saat membuat aplikasi,tidak semua file ingin kita track di git(tidak ingin kita masukan),contoh seperti file
+        ^LOG
+        ^Hasil Kompilasi
+    -git memiliki fitur ignore,dimana kita bisa meminta git secara otomatis tidak men track file di git
+    -caranya kita bisa tambahkan file .gitignore di repository
+    -lalu kita bisa tambahkan tiap baris di file .gitignore berisikan file atau folder yang tidak kita ingin track
+
+KODE : FILE .gitignore
+    #semua yang ada pada folder log tidak akan kita track/masukan
+        log/
+
+    #semua file yang extensinya .backup tidak akan kita track
+        *.backup
+    
+    #spesifik file,hanya file yang kita sebutkan saja yang tidak ingin kita track
+        file.txt

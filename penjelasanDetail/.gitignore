@@ -1,0 +1,8 @@
+# semua file yang berada dalam folder log tidak akan kita masukan
+log/
+
+#Semua file yang extensinya .backup tidak akan kita track
+*.backup
+
+# spesifik file,hanya file tertentu saja yang tidak ingin kita track
+index.html
