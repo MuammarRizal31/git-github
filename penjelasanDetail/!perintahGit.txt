@@ -92,3 +92,10 @@ ngecek versi git        : git --version
 
     membatalkan commit yang sudah dilakukan dengan cara membuat commit baru ini berbeda dengan reset
         -git revert <hash>
+
+    mengtahui siapa yang melakukan perubahan pada commit tertentu
+        -ls -l <nama folder>
+        -git blame <nama file>
+            ^git blame Ringkasan\ Tentang\ github/10.remoteBranch.txt
+    setelah dapat author nya lalu tinggal kita show saja commit nya dengan menggunakan perintah
+        -git show <hash>

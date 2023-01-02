@@ -1,0 +1,9 @@
+====================> ALIAS <========================
+ALIAS
+    -git memiliki fitur yang bernama ALIAS
+    -dengan alias,kita bisa menambah nama perintah lain untuk perintah yang sudah ada di git
+    -misal kita bisa menambah perintah co,komit untuk nama lain dari commit misalnya
+    -atau misal menambah alias logline untuk nama lain dari log --oneline
+
+contoh penggunaan nya :
+alias graph="git log --oneline --decorate --all --graph"
